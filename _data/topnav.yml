@@ -5,6 +5,8 @@ topnav:
   items:
     - title: News
       url: /news
+    - title: PulseTile
+      external_url: http://b51.cc4.myftpupload.com
 
 #Topnav dropdowns
 topnav_dropdowns:
