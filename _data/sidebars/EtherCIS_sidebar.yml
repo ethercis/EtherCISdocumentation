@@ -17,14 +17,17 @@ entries:
       url: /tocpage
       output: pdf
       type: frontmatter
-  - title: Overview of the Stack
+  - title: Overview of EtherCIS
     output: web, pdf
     folderitems:
     - title: Get started
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Introduction
+    - title: Introduction to EtherCIS
+      url: /mydoc_introduction.html
+      output: web, pdf
+    - title: Introducing openEHR 
       url: /mydoc_introduction.html
       output: web, pdf
     - title: Showcase Demonstrator
@@ -36,36 +39,63 @@ entries:
     - title: Support & Services
       url: /mydoc_support.html
       output: web, pdf
-  - title: Installation
-    output: web, pdf
-    folderitems:
-    - title: Installing the Showcase Stack- QEWD Ripple
-      url: /qewd-ripple.html
-      output: web, pdf
-  - title: PulseTile UX/UI Framework
-    output: web, pdf
-    folderitems:
-    - title: About PulseTile
-      url: /pulsetile.html
-      output: web, pdf
-  - title: QEWD Integration Framework
-    output: web, pdf
-    folderitems:
-    - title: About QEWD
-      url: /qewd.html
-      output: web, pdf
-    - title: About QEWD-Ripple
-      url: /qewd-ripple.html
-      output: web, pdf
   - title: EtherCIS Data Repository
     output: web, pdf
     folderitems:
-    - title: About openEHR
+    - title: Core Components
       url: /openEHR.html
       output: web, pdf
-    - title: About EtherCIS
+    - title: Service Wrappers
+      url: /etherCIS.html
+      output: web, pdf 
+    - title: Database aspects
+      url: /etherCIS.html
+      output: web, pdf 
+    - title: Handling Structured Data
       url: /etherCIS.html
       output: web, pdf   
+    - title: Handling UnStructured Data
+      url: /etherCIS.html
+      output: web, pdf     
+    - title: Querying in EtherCIS
+      url: /etherCIS.html
+      output: web, pdf 
+    - title: SQL & AQL in EtherCIS
+      url: /etherCIS.html
+      output: web, pdf  
+    - title: Example APIs - JSON & XML
+      url: /etherCIS.html
+      output: web, pdf  
+    - title: REST APIs in more detail
+      url: /etherCIS.html
+      output: web, pdf 
+    - title: GraphQL aspects
+      url: /etherCIS.html
+      output: web, pdf   
+  - title: Building EtherCIS
+    output: web, pdf
+    folderitems:
+    - title: The build process
+      url: /pulsetile.html
+      output: web, pdf
+  - title: Installing EtherCIS
+    output: web, pdf
+    folderitems:
+    - title: Installing within Ripple Showcase Stack
+      url: /qewd-ripple.html
+      output: web, pdf
+    - title: Installing EtherCIS as a Service
+      url: /qewd-ripple.html
+      output: web, pdf 
+  - title: Examples & Libraries
+    output: web, pdf
+    folderitems:
+    - title: Example Usage in Ripple Stack
+      url: /qewd.html
+      output: web, pdf
+    - title: Related Libraries
+      url: /qewd-ripple.html
+      output: web, pdf
   - title: Troubleshooting
     output: web, pdf
     folderitems:
