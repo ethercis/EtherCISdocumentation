@@ -3,8 +3,6 @@
 topnav:
 - title: Topnav
   items:
-    - title: Home
-      external_url: http://ripple.foundation/ethercis/
     - title: Features
       external_url: http://ripple.foundation/ethercis/
     - title: About
