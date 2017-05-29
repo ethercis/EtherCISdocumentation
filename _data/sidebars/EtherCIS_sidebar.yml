@@ -88,7 +88,7 @@ entries:
       url: /examples.html
       output: web, pdf
     - title: Related Libraries
-      url: /examples.html
+      url: /libraries.html
       output: web, pdf
   - title: Troubleshooting
     output: web, pdf
