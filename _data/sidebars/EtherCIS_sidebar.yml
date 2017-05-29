@@ -33,6 +33,9 @@ entries:
   - title: EtherCIS Data Repository
     output: web, pdf
     folderitems:
+    - title: Design & Architecture
+      url: /architecture.html
+      output: web, pdf
     - title: Core Components
       url: /core_components.html
       output: web, pdf
