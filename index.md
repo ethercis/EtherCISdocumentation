@@ -110,6 +110,9 @@ The sidebarconfigs.html file uses simple `if elsif` logic to set a variable that
 {% elsif page.sidebar == "mydoc_sidebar" %}
 {% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
 
+{% elsif page.sidebar == "EtherCIS_sidebar" %}
+{% assign sidebar = site.data.sidebars.EtherCIS_sidebar.entries %}
+
 {% else %}
 {% assign sidebar = site.data.sidebars.home_sidebar.entries %}
 {% endif %}
