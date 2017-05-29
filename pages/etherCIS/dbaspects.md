@@ -24,3 +24,10 @@ jsquery	1.0	https://github.com/postgrespro/jsquery
 ltree	1.0	https://www.postgresql.org/docs/9.4/static/ltree.html
 temporal_tables	1.0.2	http://pgxn.org/dist/temporal_tables/
 uuid-ossp	1.0	https://www.postgresql.org/docs/9.5/static/uuid-ossp.html
+
+
+Handling Strucured Data
+
+Handling Unstructured Data
+
+
