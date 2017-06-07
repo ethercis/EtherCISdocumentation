@@ -11,3 +11,5 @@ Querying within EtherCIS
 SQL aspects
 
 AQL aspects
+
+GraphQL aspects
