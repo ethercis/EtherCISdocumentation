@@ -12,7 +12,7 @@ folder: etherCIS
 
 On a high level point of view, EtherCIS main components are depicted as follows:
 
-![Components](http://docs.ethercis.org/images/components_1.jpg)
+![Components](http://docs.ethercis.org/images/components_1.png)
 
 - [JETTY](http://www.eclipse.org/jetty/): is the HTTP server and servlet container.
 - [Shiro](https://shiro.apache.org/): provides a security framework for authentication and authorization
