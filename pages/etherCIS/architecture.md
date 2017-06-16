@@ -22,7 +22,11 @@ The following diagram depicts this
 
 ![Logical View](http://docs.ethercis.org/images/functional_view.jpg)
 
+### Application Server
+
 EtherCIS as an application server can be illustrated as follows:
 
 ![Application Server](http://docs.ethercis.org/images/application_server.png)
+
+NB. The above diagram gives a simplified representation of the actual implementation. Interested reader should get EtherCIS source code to understand each service implementation and dependencies.
 
