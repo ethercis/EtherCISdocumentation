@@ -16,9 +16,7 @@ topnav_dropdowns:
       folderitems:
         - title: Getting Started
           url: /index.html
-        - title: Understanding OpenEHR
-          url: /index2.html
-               
+                  
 contact:
 - title: Community
   items:
