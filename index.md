@@ -8,6 +8,8 @@ summary: this is the start page for EtherCIS
 ---
 
 ## Overview of EtherCIS
+> We want some things to be boringly simple so we can do exciting things with them
+-- <citation>John D. Cook</citation>
 
 ### Welcome to the EtherCIS Enterprise Grade Data Repository
 
