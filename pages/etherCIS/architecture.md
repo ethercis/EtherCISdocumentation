@@ -12,14 +12,17 @@ To implement EtherCIS we have been following openEHR's [Service Model](http://ww
 
 Each specialized service, whether service or business oriented, is contained in its own library. A service registers itself a startup into a local service registry. The service registry is used by services to resolve dependencies. For example, Composition Service (the service responsible to perform persistence operations on  openEHR RM Composition objects) uses the Resource Access Service (the service responsible to access the DB backend and the Knowledge Service) by resolving it from the service registry.
 
- 
+Functionally, EtherCIS consists in a HTTP backend hosting a collection of services. Each service exposed method is invoked from a REST API dispatcher (a service itself). This is at this level that required authentication and authorization are performed. Transactions audit logging is also done at gate level. Each service depending on its specialization is associated with local services as well as external servers, for example a database server. Client queries are encoded depending on the requested format:
 
-See this diagram here;
-![dddd](https://github.com/ethercis/EtherCISdocumentation/tree/gh-pages/images/helpapi-01.png)
+- XML
+- JSON
+- GraphQL
 
-<img src="../../images/helpapi-01.png" alt="hi" class="inline"/>
+The following diagram depicts this
 
+![Logical View](https://github.com/ethercis/EtherCISdocumentation/tree/gh-pages/images/functional_view.png)
 
-See this document here;
-[Document]
+EtherCIS as an application server can be illustrated as follows:
+
+![Application Server](https://github.com/ethercis/EtherCISdocumentation/tree/gh-pages/images/application_server.png)
 
