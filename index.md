@@ -1,5 +1,5 @@
 ---
-title: EtherCIS- Enterprise Data Repositiry
+title: EtherCIS- Enterprise Data Repository
 keywords: etherCIS
 tags: [openEHR]
 sidebar: EtherCIS_sidebar
