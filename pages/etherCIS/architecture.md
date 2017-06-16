@@ -7,6 +7,9 @@ folder: etherCIS
 ---
 
 ## Architecture
+> **Numerobis**: And if we fail, we go to crocodiles
+> **Obelix**: Are crocodile tasty?
+> -- <citation>Asterix & Cleopatra</citation>
 
 To implement EtherCIS we have been following openEHR's [Service Model](http://www.openehr.org/releases/BASE/latest/docs/architecture_overview/architecture_overview.html#_service_model_sm), hence the architectural approach is Service Oriented Architecture (SOA). Currently, EtherCIS is an application server but can be easily adapted to a micro-service environment according to site requirements.
 

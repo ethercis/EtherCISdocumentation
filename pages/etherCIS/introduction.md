@@ -16,7 +16,7 @@ folder: etherCIS
 
 #### Why openEHR?
 
-Whenever dealing the first time with Clinical Data, it is rather easy to underestimate the complexity, richness and depth of clinical concepts. A candide browsing exercise in [SNOMED-CT](http://www.snomed.org/snomed-ct) or, better, [UMLS](https://www.nlm.nih.gov/research/umls/) is however a mind boggling exercise, helping if needed to understand that most traditional approaches are poised to fail. Unfortunately, IT professionals learn this reality through significantly costly failures.
+Whenever dealing the first time with Clinical Data, it is rather easy to underestimate the complexity, richness and depth of clinical concepts. A candid browsing exercise in [SNOMED-CT](http://www.snomed.org/snomed-ct) or, better, [UMLS](https://www.nlm.nih.gov/research/umls/) is however a mind boggling exercise, helping if needed to understand that most traditional approaches are poised to fail. Unfortunately, IT professionals learn this reality through significantly costly failures.
 
 Back in 2010, during an initial attempt to implement a tele-medicine application, we evaluated various candidates both commercial and open source. All of the platforms were using rather rigid information models from Form Architecture, Document stores to plain SQL associated with binary objects. No data can be exploited in a structured manner (a critical requirement since we the system aimed at assessing severity of problems, detects adverse reaction, calculate various treatment indicators and present the data in a meaningful, time based way etc.)
 
