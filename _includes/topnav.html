@@ -62,7 +62,7 @@
                 {% for entry in site.data.topnav.contact %}
 	                {% for item in entry.items %}
 	                	{% if item.external_url %}
-							<li><a href="{{item.external_url}}" target="_blank" class="noCrossRef">{{item.title}}</a></li>
+							<li><a href="{{item.external_url}}"  class="noCrossRef">{{item.title}}</a></li>
 						{% elsif page.url contains item.url %}
 							<li class="active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
 						{% else %}
