@@ -4,9 +4,9 @@ topnav:
 - title: Topnav
   items:
     - title: Features
-      external_url: http://ripple.foundation/ethercis/
+      external_url: http://ethercis.org/#services
     - title: About
-      external_url: http://ripple.foundation/ethercis/
+      external_url: http://ethercis.org/#about
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -23,5 +23,5 @@ contact:
 - title: Community
   items:
     - title: Community
-      external_url: http://ripple.foundation/ethercis/
+      external_url: http://ethercis.org/#contact
 
