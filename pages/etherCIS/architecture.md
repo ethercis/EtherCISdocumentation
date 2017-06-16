@@ -20,9 +20,9 @@ Functionally, EtherCIS consists in a HTTP backend hosting a collection of servic
 
 The following diagram depicts this
 
-![Logical View](https://github.com/ethercis/EtherCISdocumentation/tree/gh-pages/images/functional_view.png)
+![Logical View](https://github.com/ethercis/EtherCISdocumentation/blob/gh-pages/images/functional_view.jpg)
 
 EtherCIS as an application server can be illustrated as follows:
 
-![Application Server](https://github.com/ethercis/EtherCISdocumentation/tree/gh-pages/images/application_server.png)
+![Application Server](https://github.com/ethercis/EtherCISdocumentation/blob/gh-pages/images/application_server.png)
 
