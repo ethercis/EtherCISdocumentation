@@ -1,5 +1,7 @@
 repository: tomjohnson1492/documentation-theme-jekyll
 
+#baseurl - note this is missing- not needed. assume as being served from root of docs.ethercis.org as per cNAME record
+
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
@@ -12,7 +14,7 @@ site_title: EtherCIS Documentation - on GitHub Jekyll
 company_name: ADocs Ltd
 # this appears in the footer
 
-github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages/
+github_editme_path: ethercis/EtherCISdocumentation/blob/gh-pages/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 #disqus_shortname: idrbwjekyll
