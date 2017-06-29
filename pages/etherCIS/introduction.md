@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: introduction.html
 folder: etherCIS
+filename: introduction.md
 ---
 
 ## Welcome to EtherCIS

@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: installing.html
 folder: etherCIS
+filename: installing.md
 ---
 
 ## Installing EtherCIS

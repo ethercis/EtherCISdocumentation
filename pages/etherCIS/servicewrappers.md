@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: servicewraps.html
 folder: etherCIS
+filename: servicewrappers.md
 ---
 
 ## Service Wrappers

@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: architecture.html
 folder: etherCIS
+filename: architecture.md
 ---
 
 ## Architecture

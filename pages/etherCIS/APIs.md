@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: APIs.html
 folder: etherCIS
+filename: APIs.md
 ---
 
 ## APIs

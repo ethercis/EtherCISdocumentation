@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: examples.html
 folder: etherCIS
+filename: examples.md
 ---
 
 ## EtherCIS in action
