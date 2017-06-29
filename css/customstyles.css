@@ -952,7 +952,9 @@ a[href^="http://"]:after, a[href^="https://"]:after {
 }
 
 	nav a[href^="http://"]:after, 
-	nav a[href^="https://"]:after {
+	nav a[href^="https://"]:after,
+	.navbar-nav a[href^="http://"]:after, 
+	.navbar-nav a[href^="https://"]:after {
 		content: none;
 	}
 
@@ -1265,23 +1267,23 @@ body {
 				color: #0c90cd;
 			}
 			
-			#rs-navbar.navbar-default .navbar-nav > li.twitter a {
+			#rs-navbar.navbar-default .navbar-nav > li.github a {
 				font-size: 16px;
-				display: block;
+ 				display: block;
 				width: 30px;
 				height: 30px;
-				margin-top: 30px;
+				margin-top: 31px;
 				padding-left: 0;
 				padding-right: 0;
 				border-radius: 50%;
 				transition: all 0.3s ease-out;
 			}
 			
-				#rs-navbar.navbar-default .navbar-nav > li.twitter a:hover {
-					background-color: #46d4fe;
+				#rs-navbar.navbar-default .navbar-nav > li.github a:hover {
+					background-color: #800080;
 				}
 				
-					#rs-navbar.navbar-default .navbar-nav > li.twitter a:hover i {
+					#rs-navbar.navbar-default .navbar-nav > li.github a:hover i {
 						color: #fff;
 					}
 		
@@ -1352,4 +1354,62 @@ body {
 				display: block !important;
 			}
 		
+}
+
+
+footer .links {
+	text-align: center;
+}	
+
+footer .links .nav,
+footer .links .nav li {
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+		
+footer .links li a {
+	font-size: 16px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 8px;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 50%;
+	transition: all 0.3s ease-out;
+	text-align: center;
+}
+
+/* GitHub */
+
+footer .links li.github a {
+	background-color: #800080;
+}
+
+footer .links li.github a i {
+	color: #fff;
+}
+
+/* Twitter */
+
+footer .links li.twitter a {
+	background-color: #1da1f2;
+}
+
+footer .links li.twitter a i {
+	color: #fff;
+}
+	
+
+footer .links li a:hover {
+	background-color: #f26400;
+}
+
+	footer .links li.github a:hover i {
+		color: #fff;
+	}
+	
+figure img, .post-content img {
+	cursor: zoom-in;
 }
