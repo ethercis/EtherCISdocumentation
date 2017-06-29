@@ -1,0 +1,106 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: EtherCIS Data Repository
+  version: 0.8
+  folders:
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+  - title: Overview of EtherCIS
+    output: web, pdf
+    folderitems:
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Introduction to EtherCIS
+      url: /introduction.html
+      output: web, pdf
+    - title: Introducing openEHR 
+      url: /openEHR_intro.html
+      output: web, pdf
+  - title: EtherCIS Data Repository
+    output: web, pdf
+    folderitems:
+    - title: Design & Architecture
+      url: /architecture.html
+      output: web, pdf
+    - title: Core Components
+      url: /core_components.html
+      output: web, pdf
+    - title: Service Wrappers
+      url: /servicewraps.html
+      output: web, pdf 
+    - title: Security Features
+      url: /security.html
+      output: web, pdf 
+    - title: Database aspects
+      url: /dbaspects.html
+      output: web, pdf 
+    - title: Handling Structured Data
+      url: /dbaspects.html
+      output: web, pdf   
+    - title: Handling UnStructured Data
+      url: /dbaspects.html
+      output: web, pdf     
+    - title: Querying in EtherCIS
+      url: /querying.html
+      output: web, pdf 
+    - title: SQL & AQL in EtherCIS
+      url: /querying.html
+      output: web, pdf  
+    - title: Example APIs - JSON & XML
+      url: /APIs.html
+      output: web, pdf  
+    - title: REST APIs in more detail
+      url: /APIs.html
+      output: web, pdf 
+    - title: GraphQL aspects
+      url: /graphQL.html
+      output: web, pdf   
+  - title: Building EtherCIS
+    output: web, pdf
+    folderitems:
+    - title: The build process
+      url: /building.html
+      output: web, pdf
+  - title: Installing EtherCIS
+    output: web, pdf
+    folderitems:
+    - title: Installing within Ripple Showcase Stack
+      url: /installing.html
+      output: web, pdf
+    - title: Installing EtherCIS as a Service
+      url: /installing.html
+      output: web, pdf 
+  - title: Examples & Libraries
+    output: web, pdf
+    folderitems:
+    - title: Example Usage in Ripple Stack
+      url: /examples.html
+      output: web, pdf
+    - title: Related Libraries
+      url: /libraries.html
+      output: web, pdf
+  - title: Troubleshooting
+    output: web, pdf
+    folderitems:
+    - title: Troubleshooting
+      url: /troubleshooting.html
+      output: web, pdf
+    - title: FAQ
+      url: /FAQ.html
+      output: web, pdf
+  
+  

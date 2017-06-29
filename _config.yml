@@ -1,54 +1,67 @@
-# project definitions
-project: mydoc_designers
-audience: designers
-product: doc
-platform: all
-version: all
+repository: tomjohnson1492/documentation-theme-jekyll
+
+#baseurl - note this is missing- not needed. assume as being served from root of docs.ethercis.org as per cNAME record
+
 output: web
-destination: ../doc_outputs/mydoc/designers
-topnav_title: TS Frectal Documentation Theme
-homepage_title: TS frectal theme for designers
-site_title: TS frectal theme for designers
-project_folder: mydoc
-company_name: Your company
-footer_image_location: ../common_images/company_logo.png
-github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
-disqus_shortname: idrbwjekyll
-# variables
+# this property is useful for conditional filtering of content that is separate from the PDF.
 
-sidebar_tagline: Designers
-sidebar_version: Version 4.0
-theme_file: theme-blue.css
-pdf_file_name: mydoc_designers_pdf.pdf
+topnav_title: EtherCIS Documentation 
+# this appears on the top navigation bar next to the home button
 
-gems:
-  - algoliasearch-jekyll
+site_title: EtherCIS Documentation - on GitHub Jekyll
+# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-algolia:
-  application_id: 'HXUBJERYYB'
-  index_name:     'documentation_theme_jekyll_designers'
-port: 4009
+company_name: ADocs Ltd
+# this appears in the footer
+
+github_editme_path: ethercis/EtherCISdocumentation/blob/gh-pages/
+
+# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+#disqus_shortname: idrbwjekyll
+# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
+
+host: 127.0.0.1
+# the preview server used. Leave as is.
+
+port: 4003
+# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
-  - _site
-  - _drafts
-  - configs/
-  - doc/mydoc_writers*
+  - .idea/
+  - .gitignore
+# these are the files and directories that jekyll will exclude from the build
 
-# same for all
-host: 127.0.0.1
-feedback_email: tomjohnson1492@gmail.com
+#feedback_subject_line: Jekyll documentation theme
 
-markdown: redcarpet
+#feedback_email: tomjohnson1492@gmail.com
+# used as a contact email for the Feedback link in the top navigation bar
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
+# feedback_disable: true
+# if you uncomment the previous line, the Feedback link gets removed
 
-highlighter: pygments
+# feedback_text: "Need help?"
+# if you uncomment the previous line, it changes the Feedback text
+
+# feedback_link: "http://helpy.io/"
+# if you uncomment the previous line, it changes where the feedback link points to
+
+highlighter: rouge
+# library used for syntax highlighting
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 collections:
   tooltips:
     output: false
+# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
   -
@@ -59,6 +72,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
+      sidebar: home_sidebar
   -
     scope:
       path: ""
@@ -69,3 +83,27 @@ defaults:
       search: true
       tooltip: true
 
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+      sidebar: home_sidebar
+
+# these are defaults used for the frontmatter for these file types
+
+sidebars:
+- home_sidebar
+- mydoc_sidebar
+- product1_sidebar
+- product2_sidebar
+- other
+
+description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+# the description is used in the feed.xml file
+
+# needed for sitemap.xml file only
+url: http://idratherbewriting.com
