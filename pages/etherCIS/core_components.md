@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: core_components.html
 folder: etherCIS
+filename: core_components.md
 ---
 
 ## EtherCIS Components

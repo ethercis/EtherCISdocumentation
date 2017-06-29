@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: FAQ.html
 folder: etherCIS
+filename: FAQ.md
 ---
 
 ## FAQ re EtherCIS

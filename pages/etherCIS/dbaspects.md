@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: dbaspects.html
 folder: etherCIS
+filename: dbaspects.md
 ---
 
 ## Database aspects

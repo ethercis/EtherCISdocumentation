@@ -4,6 +4,7 @@ keywords: EtherCIS
 sidebar: EtherCIS_sidebar
 permalink: building.html
 folder: etherCIS
+filename: building.md
 ---
 
 How To Build It?

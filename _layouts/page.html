@@ -40,8 +40,11 @@ layout: default
 
 
     {% if site.github_editme_path %}
-
-    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+		{% if page.url contains "index.html" %}
+			<a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.filename}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+		{% else %}
+			<a target="_blank" href="https://github.com/{{site.github_editme_path}}pages/{{page.folder}}/{{page.filename}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+		{% endif %}
 
     {% endif %}
 

@@ -5,6 +5,8 @@ tags: [openEHR]
 sidebar: EtherCIS_sidebar
 permalink: index.html
 summary: this is the start page for EtherCIS
+folder: 
+filename: index.md
 ---
 
 ## Overview of EtherCIS
