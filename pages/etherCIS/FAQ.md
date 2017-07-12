@@ -17,3 +17,5 @@ Services provided by ADocs Ltd
 Support from Ripple Foundation
 
 Compliant with openEHR standard
+
+[TO BE CONTINUED]

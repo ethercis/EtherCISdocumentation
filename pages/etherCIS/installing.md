@@ -11,6 +11,8 @@ filename: installing.md
 
 Install within Ripple Showcase Stack
 
-Install alone scripts here
+Install alone scripts
 
 Docker install options
+
+[TO BE CONTINUED]

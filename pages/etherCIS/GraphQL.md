@@ -9,4 +9,4 @@ filename: GraphQL.md
 
 ## GraphQL support in EtherCIS
 
-Intro to GraphQL here
+[TO BE CONTINUED]

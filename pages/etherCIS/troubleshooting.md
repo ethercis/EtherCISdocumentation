@@ -9,5 +9,5 @@ filename: troubleshooting.md
 
 ## TroubleShooting EtherCIS
 
-Try this;
+[TO BE CONTINUED]
 
