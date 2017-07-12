@@ -26,7 +26,7 @@ The used model achieves the integration in the same database engine of both rela
 
 The DB has the following structure (simplified diagram) :
 
-![hybrid data](http://docs.ethercis.org/images/db-struct.jpg)
+![hybrid data](http://docs.ethercis.org/images/db-struct.png)
 
 The column 'entry' in the table 'entry' is of the jsonb data type which is a binary representation of JSON (e.g. it is not a BLOB) support indexing as well as a rich set of operators specific to this type. 
 
@@ -121,17 +121,17 @@ Is SQL transformed as
 	)
 
 The resulting dataset is similar to
-
-	+--------------------------------------------------+-------------------------+---------------------------------------------+-----------------------------+-------------------------+-----+------+
-	|uid                                               |date_created             |test_name                                    |sample_taken                 |what                     |value|units |
-	+--------------------------------------------------+-------------------------+---------------------------------------------+-----------------------------+-------------------------+-----+------+
-	|55280300-9031-4390-8a90-a4e34feb51f1::test-serv...|2015-05-12T06:17:09+02:00|hepatic function panel                       |2015-05-11T00:13:24.518+02:00|total protein measurement|67.0 |g/l   |
-	|810272ac-28e8-4928-b61b-79dcef4b4170::test-serv...|2015-03-22T06:11:02+02:00|Urea, electrolytes and creatinine measurement|2015-02-22T00:11:02.518+02:00|Urea                     |7.4  |mmol/l|
-	|a601a3df-cfea-4cb8-9b82-5737522b52c4::test-serv...|2015-04-15T06:11:02+02:00|Urea, electrolytes and creatinine measurement|2015-04-10T00:11:02.518+02:00|Urea                     |3.6  |mmol/l|
-	|b97e9fde-d994-4874-b671-8b1cd81b811c::test-serv...|2015-07-23T06:11:02+02:00|Urea, electrolytes and creatinine measurement|2015-07-23T00:11:02.518+02:00|Urea                     |6.7  |mmol/l|
-	|e54ffbfe-969e-4cae-bc5e-4850b298f5a4::test-serv...|2015-08-19T06:11:02+02:00|complete blood count                         |2015-08-25T00:11:02.518+02:00|white blood cell count   |13.6 |10*9/l|
-	+--------------------------------------------------+-------------------------+---------------------------------------------+-----------------------------+-------------------------+-----+------+
-
+<pre><code>
++--------------------------------------------------+-------------------------+---------------------------------------------+-----------------------------+-------------------------+-----+------+
+|uid                                               |date_created             |test_name                                    |sample_taken                 |what                     |value|units |
++--------------------------------------------------+-------------------------+---------------------------------------------+-----------------------------+-------------------------+-----+------+
+|55280300-9031-4390-8a90-a4e34feb51f1::test-serv...|2015-05-12T06:17:09+02:00|hepatic function panel                       |2015-05-11T00:13:24.518+02:00|total protein measurement|67.0 |g/l   |
+|810272ac-28e8-4928-b61b-79dcef4b4170::test-serv...|2015-03-22T06:11:02+02:00|Urea, electrolytes and creatinine measurement|2015-02-22T00:11:02.518+02:00|Urea                     |7.4  |mmol/l|
+|a601a3df-cfea-4cb8-9b82-5737522b52c4::test-serv...|2015-04-15T06:11:02+02:00|Urea, electrolytes and creatinine measurement|2015-04-10T00:11:02.518+02:00|Urea                     |3.6  |mmol/l|
+|b97e9fde-d994-4874-b671-8b1cd81b811c::test-serv...|2015-07-23T06:11:02+02:00|Urea, electrolytes and creatinine measurement|2015-07-23T00:11:02.518+02:00|Urea                     |6.7  |mmol/l|
+|e54ffbfe-969e-4cae-bc5e-4850b298f5a4::test-serv...|2015-08-19T06:11:02+02:00|complete blood count                         |2015-08-25T00:11:02.518+02:00|white blood cell count   |13.6 |10*9/l|
++--------------------------------------------------+-------------------------+---------------------------------------------+-----------------------------+-------------------------+-----+------+
+	</code></pre>
 
 #### Data revision
 
