@@ -17,7 +17,7 @@ The modeling process is referred to as “open knowledge engineering”.
 
 2-levels modeling consists of assuming the IT environment as a fixed model of information (invariant) designed to hosts models of content (the knowledge models) using archetypes, templates and user interface definitions. A change occurring in the content models impacts marginally the Information System. This process results in a very short time-to-operation cycle.
 
-![two levels](http://docs.ethercis.org/images/two-levels.jpg)
+![two levels](http://docs.ethercis.org/images/two-levels.png)
 
 ### The openEHR Information Model
 
@@ -67,7 +67,7 @@ Finally, the archetypes are intended to be used in Templates defining a particul
 
 Structuring Archetypes-Template is shown below:
 
-![archetypes templates](http://docs.ethercis.org/images/archetypes-template.jpg)
+![archetypes templates](http://docs.ethercis.org/images/archetypes-template.png)
 
 The General provisions regarding security of data according to the openEHR model are:
 
