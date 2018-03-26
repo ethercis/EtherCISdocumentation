@@ -11,7 +11,7 @@ filename: APIs.md
 
 ### REST APIs
 
-Ethercis REST API is similar to [EhrScape API](https://code-4-health.org/platform/open_interfaces_apis/ehrscape/ehrscape_api_reference).
+Ethercis REST API is similar to [EhrScape API](https://code4health.org/platform/open_interfaces_apis/ehrscape/ehrscape_api_reference).
 
 ### JSON
 
